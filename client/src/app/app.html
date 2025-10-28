@@ -1,0 +1,7 @@
+<h4> {{title}} !!! </h4>
+
+<ul>
+  @for (member of members(); track member.id) {
+  <li>{{member.displayName}} - {{member.email}}</li>
+  }
+</ul>
